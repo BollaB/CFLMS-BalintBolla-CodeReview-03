@@ -1,0 +1,325 @@
+* {
+	font-family: Century Gothic;
+}
+
+/* Header starts here*/
+#header {
+	background-color: #FFF3F3;
+	height: 10%;
+	display: flex;	
+}
+
+#logo {
+	width: 40%;
+	display: flex;
+	justify-content: center;
+}
+
+#banner {
+	width: 60%;
+	display: flex;
+	justify-content: center;
+}
+
+.logo {
+	width: 60%;
+	height: auto;
+	margin: 5% 10% 5% 0;
+}
+
+.banner {
+	width: 100%;
+	height: auto;
+	margin: 5%;
+	object-fit: fill;
+}
+
+#navbar {
+	background-color: #8E1616;
+}
+
+#navbar ul {
+	list-style: none;
+  	text-align: center;
+  	padding: 0.5%;
+  	margin: 0;
+ 	display: flex;
+}
+
+#navbar li {
+	padding: 0.5rem;
+	font-size: 150%;
+	margin-bottom: 0;
+}
+
+#navbar a {
+	text-decoration: none;
+	color: white;
+}
+/* Header ends here*/
+
+#mainText1 {
+	background-image: url('../images/traffic-332857_1920.jpg');
+	background-repeat: no-repeat;
+  	background-size: 120%;
+	margin: 0;
+	z-index: 2;
+
+}
+
+#mainLabel {
+	color: white;
+	margin: 0% 2% 2% 0%;
+	padding: 2%;
+}
+
+#mainText2 {
+	background-color: #D0CDCD;
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	height: 10em;
+	color: #4C4A4A;
+	z-index: 2;
+}
+
+#mainText2 h2 {
+	margin: 0;
+}
+
+#mainContainer {
+	border: 2px solid #919191;
+	background-color: rgba(255,255,255,.6);
+	width: 90%;
+	margin: 0 5%;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+#boxLabel {
+	width: 50%;
+	text-align: center;
+	
+}
+
+#forms {
+	width: 70%;
+	height: 15em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #4C4A4A;
+
+}
+
+#firstCol, #secondCol {
+	display: flex;
+	justify-content: center;
+
+}
+
+#form1, #form2 {
+	margin: 5%;
+}
+
+
+#form4 {
+	margin-left: 10%;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+
+}
+#form4 select {
+	width: 150px;
+
+}
+
+#buttonContainer {
+	margin: 5% 0;
+}
+
+#button {
+	background-color: #339235;
+	font-size: 20px;
+	color: white;
+	padding: 10px 40px;
+	border-radius: 8px;
+	border: 0;
+}
+
+#output {
+	margin: 0 2%;
+	width: 50%;
+	
+}
+
+#price {
+	color: #1E621F;
+	text-align: center;
+}
+
+#Container {
+	margin: 5%;
+	display: flex;
+	justify-content: space-around;
+}
+
+#boxLeft, #boxRight {
+	border-top: 2px solid black;
+	border-right: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
+	border-left: 2px solid #ccc;
+	width: 35%;
+	margin: 5%;
+	opacity: 0.6;
+}
+
+#boxLeft, #boxRight, h3, h4 {
+	margin: 2%;
+	padding: 0;
+}
+
+
+
+#boxLeft, #boxRight, p {
+	margin: 0 2%;
+	padding: 0;
+}
+#boxLeft, #boxRight, ul {
+  list-style: none;
+}
+
+#boxLeft, #boxRight, li {
+	margin-bottom: 3%;
+}
+
+ul.checkmark li:before {
+    content:"\2714\0020";
+    color: green;
+}
+
+
+/* Footer starts here*/
+
+#navbar-footer {
+	background-color: black;
+}
+
+#navbar-footer ul {
+	list-style: none;
+  	text-align: center;
+  	padding: 0.5%;
+  	margin: 0;
+ 	display: flex;
+}
+
+#navbar-footer li {
+	padding: 0.5rem;
+	font-size: 150%;
+}
+
+#navbar-footer a {
+	text-decoration: none;
+	color: white;
+}
+
+#footer {
+	background-color: black;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#footerlogo {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.footerlogo {
+	width: 20%;
+	margin-right: 2%;
+}
+
+#footertext {
+	display: flex;
+	justify-content: center;
+}
+
+.footertext {
+	font-size: 120%;
+	color: white;
+}
+/* Footer ends here*/
+
+@media screen and (max-width: 480px) {
+	
+	#banner {
+		display: none;
+	}
+	
+	#navbar ul {
+		display: flex;
+		justify-content: center;
+	}
+
+	#navbar li {
+		font-size: 120%;
+	}
+
+	#mainText1 {
+		background-size: 200%;
+	}
+
+	#boxLabel {
+		width: 100%;
+		text-align: center;
+	}
+
+	#names, #age, #hp, #country {
+	
+	width: 90%;
+	display: flex;
+	justify-content: center;
+
+	
+	}
+
+	#Container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#boxLeft, #boxRight {
+	border-top: 2px solid black;
+	border-right: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
+	border-left: 2px solid #ccc;
+	width: 100%;
+	margin: 5%;
+	opacity: 0.7;
+	}
+
+	#footerlogo {
+	width: 100%;
+	height: 70%;
+	display: flex;
+	justify-content: center;
+	}
+	
+	.footerlogo {
+		width: 50%;
+		height: 70%;
+	}
+
+	.footertext {
+	font-size: 100%;
+	}
+
+}
